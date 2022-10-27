@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="adding comment">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="Updating jenkinsfile and adding dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -95,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581191690472</updated>
       <workItem from="1666833713858" duration="2734000" />
-      <workItem from="1666840384965" duration="566000" />
+      <workItem from="1666840384965" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666833817580</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666840435362</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updating jenkinsfile and adding dockerfile">
+      <created>1666842645043</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666842645043</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
     <MESSAGE value="implementing create unique id" />
     <MESSAGE value="fixing create unique id" />
     <MESSAGE value="adding comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding comment" />
+    <MESSAGE value="Updating jenkinsfile and adding dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating jenkinsfile and adding dockerfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

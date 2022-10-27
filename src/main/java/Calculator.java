@@ -68,7 +68,9 @@ class Calculator {
 
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
-    String createUniqueID(String n){
+    String createUniqueID(String n) throws InterruptedException
+    {
+        Thread.sleep(100);
         String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         Random random = new Random(System.currentTimeMillis());
         int length = n.length() + n.length() + random.nextInt(30);

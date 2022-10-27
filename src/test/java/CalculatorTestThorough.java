@@ -97,7 +97,8 @@ public class CalculatorTestThorough {
     }
 
     @Test
-    public void createUniqueIDTest(){
+    public void createUniqueIDTest() throws InterruptedException
+    {
         Calculator myCalculator = new Calculator();
         Set<String> uniqueIDBank = new HashSet<String>();
 

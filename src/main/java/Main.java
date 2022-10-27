@@ -1,26 +1,59 @@
-
+import java.util.Scanner;
 
 public class Main
 {
   public static void main(String[] args) {
-    String method = args[0];
+    Scanner sc= new Scanner(System.in);
+    String method = "";
     Calculator calculator = new Calculator();
     int r = 0;
+    while (!method.equals("exit"))
+    {
+      System.out.println("Enter method:");
+      method = sc.nextLine();
+      if (method.equals("add"))
+      {
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        System.out.println("enter y:");
+        int y = sc.nextInt();
+        r=calculator.add(x, y);
+      } else if (method.equals("subtract"))
+      {
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        System.out.println("enter y:");
+        int y = sc.nextInt();
+        r=calculator.subtract(x, y);
+      } else if (method.equals("multiply"))
+      {
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        System.out.println("enter y:");
+        int y = sc.nextInt();
+        r=calculator.multiply(x, y);
+      } else if (method.equals("divide"))
+      {
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        System.out.println("enter y:");
+        int y = sc.nextInt();
+        r=calculator.divide(x, y);
+      } else if (method.equals("fib"))
+      {
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        r=calculator.fibonacciNumberFinder(x);
+      } else if (method.equals("binary"))
+      {
+        System.out.println("enter x:");
+        int x = sc.nextInt();
+        String s=calculator.intToBinaryNumber(x);
+        r=Integer.parseInt(s);
+      }
+      System.out.println(r);
 
-    if (method.equals("add")) {
-      r = calculator.add(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
-    } else if (method.equals("subtract")) {
-      r = calculator.subtract(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
-    } else if (method.equals("multiply")) {
-      r = calculator.multiply(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
-    } else if (method.equals("divide")) {
-      r = calculator.divide(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
-    } else if (method.equals("fib")) {
-      r= calculator.fibonacciNumberFinder(Integer.parseInt(args[1]));
-    } else if (method.equals("binary")) {
-      String s = calculator.intToBinaryNumber(Integer.parseInt(args[1]));
-      r = Integer.parseInt(s);
     }
-    System.out.println(r);
+    System.out.println("Goodbye");
   }
 }

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="breaking the project">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="fixing the build">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581191690472</updated>
       <workItem from="1666833713858" duration="2734000" />
-      <workItem from="1666840384965" duration="3947000" />
+      <workItem from="1666840384965" duration="4357000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666833817580</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666847355692</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updating email">
+      <created>1666847802741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666847802741</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +239,9 @@
     <MESSAGE value="changing registryCredential" />
     <MESSAGE value="fixing the project" />
     <MESSAGE value="breaking the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="breaking the project" />
+    <MESSAGE value="updating email" />
+    <MESSAGE value="fixing the build" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing the build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

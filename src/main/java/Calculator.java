@@ -70,6 +70,7 @@ class Calculator {
      */
     String createUniqueID(String n) throws InterruptedException
     {
+        //need to sleep for the tests to work
         Thread.sleep(100);
         String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         Random random = new Random(System.currentTimeMillis());

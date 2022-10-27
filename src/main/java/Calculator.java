@@ -1,3 +1,5 @@
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 class Calculator {
 
@@ -67,8 +69,22 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
-
-        return null;
+        String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        Random random = new Random(System.currentTimeMillis());
+        int length = n.length() + n.length() + random.nextInt(30);
+        int somewhere = random.nextInt(length);
+        if (somewhere == 0) {
+            somewhere = n.length() / 2;
+        }
+        String id = "";
+        for(int i = 0; i < somewhere; i ++) {
+            id += alphabet.charAt(random.nextInt(alphabet.length() - 1));
+        }
+        id += n;
+        for(int i = somewhere; i < length; i ++) {
+            id += alphabet.charAt(random.nextInt(alphabet.length() - 1));
+        }
+        return id;
     }
 
 

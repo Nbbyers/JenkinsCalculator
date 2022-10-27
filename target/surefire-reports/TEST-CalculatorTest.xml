@@ -66,9 +66,9 @@
   <testcase classname="CalculatorTest" name="divideByZeroFailure" time="0"/>
   <testcase classname="CalculatorTest" name="intToBinaryNumberTest" time="0"/>
   <testcase classname="CalculatorTest" name="multiplyTest" time="0"/>
-  <testcase classname="CalculatorTest" name="subtractTest" time="0.001"/>
+  <testcase classname="CalculatorTest" name="subtractTest" time="0"/>
   <testcase classname="CalculatorTest" name="fibonacciTest" time="0.001"/>
-  <testcase classname="CalculatorTest" name="createUniqueIDTest" time="0.003">
+  <testcase classname="CalculatorTest" name="createUniqueIDTest" time="0.004">
     <failure message="expected:&lt;10&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10&gt; but was:&lt;1&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)

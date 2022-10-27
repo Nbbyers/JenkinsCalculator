@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="changing registryCredential">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="fixing the project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581191690472</updated>
       <workItem from="1666833713858" duration="2734000" />
-      <workItem from="1666840384965" duration="3129000" />
+      <workItem from="1666840384965" duration="3503000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666833817580</created>
@@ -180,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666844776588</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="breaking the project">
+      <created>1666846901227</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666846901227</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixing the project">
+      <created>1666847081110</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666847081110</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +221,9 @@
     <MESSAGE value="Updating jenkinsfile" />
     <MESSAGE value="refactoring dockerfile" />
     <MESSAGE value="changing registryCredential" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing registryCredential" />
+    <MESSAGE value="breaking the project" />
+    <MESSAGE value="fixing the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing the project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

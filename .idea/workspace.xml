@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="fixing create unique id">
+    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="adding comment">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581191690472</updated>
       <workItem from="1666833713858" duration="2734000" />
+      <workItem from="1666840384965" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666833817580</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666836386715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding comment">
+      <created>1666840435362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666840435362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +170,8 @@
     <MESSAGE value="implementing int to binary number" />
     <MESSAGE value="implementing create unique id" />
     <MESSAGE value="fixing create unique id" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing create unique id" />
+    <MESSAGE value="adding comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

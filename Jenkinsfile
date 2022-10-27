@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "nbbyers/204_calculator_app"
-    registryCredential = 'dockerhub'
+    registryCredential = 'CS204'
     dockerImage = ''
   }
 
